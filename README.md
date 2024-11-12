@@ -76,6 +76,78 @@
     <script src="script.js"></script>
 </body>
 </html>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1e1e2f;
+    color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.card {
+    background-color: #2b2b3d;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
 git add .
 git commit -m "Initial commit"
 git push origin main
