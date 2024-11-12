@@ -76,3 +76,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+git add .
+git commit -m "Initial commit"
+git push origin main
